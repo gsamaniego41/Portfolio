@@ -2762,6 +2762,16 @@ input[type="button"]:disabled,
   width: 8.45em;
 }
 
+.major > h2:before {
+  content: "";
+  color: white;
+  background: #3eacb0;
+  width: 43px;
+  left: 0;
+  display: inline-block;
+  height: 3px;
+}
+
 /* Footer */
 
 #footer .icons {
