@@ -2676,11 +2676,13 @@ input[type="button"]:disabled,
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
-  background-size: auto, 150%;
+  /* background-size: auto, 150%; */
+  background-size: cover;
   color: rgba(255, 255, 255, 0.5);
-  height: 100%;
+  height: 110vh;
+  /* height: 100%; */
   left: 0;
-  padding: 8em 4em;
+  padding: 8em 4em 10em;
   position: fixed;
   text-align: right;
   top: 0;
@@ -3082,17 +3084,22 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
 
   #header {
-    padding: 6em 3em 3em 3em;
+    padding: 6em 3em 10em 3em;
     width: 30%;
+    height: 110vh;
   }
 
   #header h1 {
     font-size: 1.25em;
   }
 
-  #header h1 br {
-    display: none;
+  #header > .inner strong {
+    font-size: 1.7rem;
   }
+
+  /* #header h1 br {
+    display: none;
+  } */
 
   #header > .inner {
     margin-bottom: 0;
@@ -3151,6 +3158,7 @@ body.is-touch .poptrox-popup .closer {
     top: auto;
     width: 100%;
     display: block;
+    height: 50vh;
   }
 
   #header h1 {
@@ -3244,7 +3252,8 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
 
   #header {
-    padding: 2.25em 1.5em;
+    padding: 5.15em 1.5em;
+    /* padding: 2.25em 1.5em; */
   }
 
   #header h1 {
@@ -3286,12 +3295,12 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
 
   #header {
-    padding: 4.5em 1.5em;
+    padding: 5em 1.5em;
   }
 
-  #header h1 br {
+  /* #header h1 br {
     display: none;
-  }
+  } */
 
   /* Footer */
 
