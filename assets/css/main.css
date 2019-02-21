@@ -212,7 +212,8 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #44f7e8 !important;
+  color: #ffffff !important;
+  /* color: #44f7e8 !important; */
   text-decoration: none;
 }
 
